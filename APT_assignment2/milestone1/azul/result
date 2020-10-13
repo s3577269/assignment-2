@@ -1,0 +1,121 @@
+error in line 4 | Invalid input - factory index and pattern line must be integer
+error in line 4 | Invalid factory - index out of range
+error in line 4 | Invalid input - unrecognized command
+error in line 4 | Invalid tile - tile type not found
+error in line 6 | Invalid pattern line - pattern line must have tiles with same color
+error in line 4 | Invalid input - factory index and pattern line must be integer
+error in line 4 | Invalid pattern line - index out of range
+error in line 6 | Invalid pattern line - pattern line has been full
+error in line 14 | Invalid pattern line - wall line has contained a same type of tile
+error in line 4 | Invalid Input - Factory has no this type of tiles
+error in line 4 | Invalid tile - Cannot take first-player marker
+error in line 5 | Invalid Input - Factory has no this type of tiles
+error in line 2 | Invalid Name
+error in line 1 | Invalid tile bag
+error in line 1 | Invalid tile - tile type not found
+error in line 1 | Invalid tile bag
+error in line 4 | Invalid input - unrecognized command
+Factories:
+0: F 
+1: B B B B 
+2: Y R R L 
+3: L L Y L 
+4: B B B B 
+5: U U U R 
+
+Score for Player A: 22
+Mosaic for A:
+1:         . || B . R U . 
+2:       . . || . B Y R U 
+3:     . . . || U . B Y . 
+4:   . . R R || . U L B . 
+5: . . . U U || . R . . . 
+(6)broken: 
+
+Score for Player B: 26
+Mosaic for B:
+1:         . || . Y R U L 
+2:       . . || L . Y R U 
+3:     . . . || . L B Y R 
+4:   . . . . || R . L . Y 
+5: . . Y Y Y || . . U . . 
+(6)broken: 
+
+Factories:
+0: F 
+1: B Y Y B 
+2: B B L L 
+3: B R L L 
+4: Y U R U 
+5: B R R B 
+
+Score for Player A: 0
+Mosaic for A:
+1:         . || . . . . . 
+2:       . . || . . . . . 
+3:     . . . || . . . . . 
+4:   . . . . || . . . . . 
+5: . . . . . || . . . . . 
+(6)broken: 
+
+Score for Player B: 0
+Mosaic for B:
+1:         . || . . . . . 
+2:       . . || . . . . . 
+3:     . . . || . . . . . 
+4:   . . . . || . . . . . 
+5: . . . . . || . . . . . 
+(6)broken: 
+
+Factories:
+0: F 
+1: B Y Y R 
+2: Y U L L 
+3: L R B Y 
+4: L U Y R 
+5: B L U B 
+
+Score for Player A: 3
+Mosaic for A:
+1:         . || . . R . . 
+2:       . . || . B . . . 
+3:     . . B || . . . . . 
+4:   . . . . || . . . B . 
+5: . . . . . || . . . . . 
+(6)broken: 
+
+Score for Player B: 3
+Mosaic for B:
+1:         . || . Y . . . 
+2:       . . || . . Y . . 
+3:     . . . || . . . . R 
+4:   . . . . || . . L . . 
+5: . . . U U || . . . . . 
+(6)broken: 
+
+Factories:
+0: F L L 
+1: B Y Y B 
+2: 
+3: B R L L 
+4: Y U R U 
+5: B R R B 
+
+Score for Player A: 0
+Mosaic for A:
+1:         . || . . . . . 
+2:       B B || . . . . . 
+3:     . . . || . . . . . 
+4:   . . . . || . . . . . 
+5: . . . . . || . . . . . 
+(6)broken: 
+
+Score for Player B: 0
+Mosaic for B:
+1:         . || . . . . . 
+2:       . . || . . . . . 
+3:     . . . || . . . . . 
+4:   . . . . || . . . . . 
+5: . . . . . || . . . . . 
+(6)broken: 
+
