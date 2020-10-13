@@ -1,43 +1,72 @@
 #include "Type.h"
 #include <exception>
 #include <stdexcept>
+#include <iostream>
 
-char convertToChar(Tile tile){
+char convertToChar(Tile tile)
+{
     char charTile = N;
-    if(tile == RED){
+    if (tile == RED)
+    {
         charTile = R;
-    } else if(tile == YELLOW){
+    }
+    else if (tile == YELLOW)
+    {
         charTile = Y;
-    } else if(tile == DARK_BLUE){
+    }
+    else if (tile == DARK_BLUE)
+    {
         charTile = B;
-    } else if(tile == LIGHT_BLUE){
+    }
+    else if (tile == LIGHT_BLUE)
+    {
         charTile = L;
-    } else if(tile == BLACK){
+    }
+    else if (tile == BLACK)
+    {
         charTile = U;
-    } else if(tile == FIRST_PLAYER){
+    }
+    else if (tile == FIRST_PLAYER)
+    {
         charTile = F;
     }
-    return charTile;    
+    return charTile;
 }
 
-
-Tile convertToEnum(char tile){
+Tile convertToEnum(char tile)
+{
     Tile enumTile = NO_TILE;
-    if(tile == R){
+    if (tile == R)
+    {
         enumTile = RED;
-    } else if(tile == Y){
+    }
+    else if (tile == Y)
+    {
         enumTile = YELLOW;
-    } else if(tile == B){
+    }
+    else if (tile == B)
+    {
         enumTile = DARK_BLUE;
-    } else if(tile == L){
+    }
+    else if (tile == L)
+    {
         enumTile = LIGHT_BLUE;
-    } else if(tile == U){
+    }
+    else if (tile == U)
+    {
         enumTile = BLACK;
-    } else if(tile == F){
+    }
+    else if (tile == F)
+    {
         enumTile = FIRST_PLAYER;
-    } else if(tile == N){
+    }
+    else if (tile == N)
+    {
         enumTile = NO_TILE;
-    } else {
+    }
+    else
+    {
+        std::cout << tile << std::endl;
         throw std::invalid_argument("Invalid tile - tile type not found");
     }
     return enumTile;
